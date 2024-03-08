@@ -1,4 +1,4 @@
-This repository focuses on building a face recognition based attendance marking system by using FaceNet, 
+This repository is an application of high performance face recognition using FaceNet, 
 Multi-Task Cascaded Convolutional Neural Networks(MTCNN) and Random Forest classifier.
 
 Required setup 
