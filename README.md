@@ -1,7 +1,49 @@
-This repository is an application of high performance face recognition using FaceNet, 
-Multi-Task Cascaded Convolutional Neural Networks(MTCNN) and Random Forest classifier.
+<p>
+  This repository is an application of high performance face recognition using FaceNet, 
+  Multi-Task Cascaded Convolutional Neural Networks(MTCNN) and Random Forest classifier.
+  A camera is used to capture video frames and each frame is analysed by the face recogonition algorithm, 
+  if a face is recognized name of the person is displayed in the console with confidence score. 
+  Names displayed in console are also displayed in a excel sheet within Names column along with date and in-time(shows the students' arrival time in class).
+</p>
 
-Required setup 
+<h2> 
+  <b>Required setup </b> 
+</h2>
+
+<list> <ol>
+  <li> Camera </li>
+  <li> Python (latest version preffered) </li>
+  <li>Libraries
+  <ul>
+    <li> pytorch - provides machine learning framework. </li>
+    <li> facenet-pytorch - provides implementation of FaceNet and uses PyTorch framework. </li>
+    <li> sklearn - contains tools, and utilities for data preparation, model fitting, and evaluation. </li>
+    <li> opencv - provides methods to read images and video frames from camera. </li>
+    <li> joblib - provides a set of tools to for lightweight pipelining. </li>
+  </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <B>Camera</B>
 
@@ -16,28 +58,28 @@ camera selection is a very important step as they are available in various resol
 
 As the pixel count increases, we get better video quality so the camera can capture more information or detailing in every frame and range of the camera increases as well, but the CPU/GPU now has to evaluate so many pixels in the frame. 
 
-<B>OpenCv</br>
 
+<B>OpenCv</br>
 OpenCV provides functions to read and write images and videos in various formats, making it easy to work with different media sources. In our recognition algorithm we used OpenCV for reading input from the camera and the input from the camera is displayed in frames.
 
-<B>PyTorch</br>
 
+<B>PyTorch</br>
 PyTorch is a open-source deep learning framework. It provides a flexible and efficient way to build and train neural networks for various machine learning tasks. Basically a machine learning framework to execute the models.
 
-<B>facenet-pytorch</br>
 
+<B>facenet-pytorch</br>
 Facenet-pytorch is a Python library that provides an implementation of the FaceNet model using the PyTorch deep learning framework.
 
-<B>MTCNN</br>
 
+<B>MTCNN</br>
 Multi-task Cascaded Convolutional Networks is a deep learning based library for face detection and facial landmark detection. It has very high  its accuracy, speed, and capable to handle challenging conditions of various poses, and occlusions. 
 
-<B>Scikit-learn </br>
 
+<B>Scikit-learn </br>
 Sk learn provides a comprehsive set of algorithms, tools, and utilities for data preparation, model fitting, and evaluation. 
 
-<B>Random Forest</br>
 
+<B>Random Forest</br>
 Random Forest is an ensemble learning algorithm which combines multiple simpler models to make a single most accurate prediction. It uses multiple decision trees each focusing a set of features and each tree divides based on the features. 
 
 
