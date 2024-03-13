@@ -13,8 +13,8 @@ mtcnn = MTCNN(thresholds=[0.9, 0.9, 0.9])
 
 facenet_model = InceptionResnetV1(pretrained='vggface2').eval()
 
-#clf = RandomForestClassifier(n_estimators=100, random_state=42)
-clf = joblib.load('/Users/sagarkumbhar/Documents/ml projects/27/Krandomforest04.joblib')
+# import the model
+clf = joblib.load('model.joblib')
 
 # create a dictionary to map names with key values
 label_to_name = {0: 'Akash Khulpe', 1: 'Anuj Gavhane', 2:'Devang Edle', 3:'Deepanshu Gadling', 4:'Gaurav Diwedi', 5:'Parimal Kumar', 6:'Parth Deshpande',7:'Rutuja Doiphode',8:'Sagar Kumbhar'}
