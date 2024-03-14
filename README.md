@@ -49,6 +49,12 @@
 </ol>
 </list>
 
+
+<img src="images/fig1_PR_curve.png" alt="Precision recall curve">
+<img src="images/fig2_ROC_curve.png" alt="ROC curve">
+<img src="images/fig3_Accuracy_Confusion_matris.png" alt="Accuracy and Confusion Matrix">
+
+
 <h2> Observations </h2>
 <p>
 As the pixel count increases, we get better video quality so the camera can capture more information or detailing in every frame and range of the camera increases as well, but the CPU/GPU now has to evaluate so many pixels in the frame. 
