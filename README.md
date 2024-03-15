@@ -49,10 +49,17 @@
 </ol>
 </list>
 
-
+<h3> Precision recall curve </h3>
 <img src="images/fig1_PR_curve.png" alt="Precision recall curve">
+
+<h3> Receiver operating characteristic curve </h3>
 <img src="images/fig2_ROC_curve.png" alt="ROC curve">
+
+<h3> Accuracy & Confusion matrix </h3>
 <img src="images/fig3_Accuracy_Confusion_matris.png" alt="Accuracy and Confusion Matrix">
+
+<h3> Low light performance </h3>
+<img src="images/fig4_low_ight.png" alt="Low light performance">
 
 
 <h2> Observations </h2>
@@ -61,6 +68,9 @@ As the pixel count increases, we get better video quality so the camera can capt
 </p>
 
 
+.image-container {
+  text-align: center;
+}
 
 
 
