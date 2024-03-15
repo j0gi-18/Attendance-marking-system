@@ -64,14 +64,8 @@
 
 <h2> Observations </h2>
 <p>
-As the pixel count increases, we get better video quality so the camera can capture more information or detailing in every frame and range of the camera increases as well, but the CPU/GPU now has to evaluate so many pixels in the frame. 
+As the pixel count increases, we get better video quality so the camera can capture more information or detailing in every frame and range of the camera increases as well, but the CPU/GPU now has to evaluate so many pixels in the frame. The algorithm can perform even better(recogonise faces from a distance of 10 meters) if used with a better processor
 </p>
-
-
-.image-container {
-  text-align: center;
-}
-
 
 
 
