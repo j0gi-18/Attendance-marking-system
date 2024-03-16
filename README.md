@@ -56,7 +56,7 @@
 <img src="images/fig2_ROC_curve.png" alt="ROC curve">
 
 <h3> Accuracy & Confusion matrix </h3>
-<img src="images/fig3_Accuracy_Confusion_matris.png" alt="Accuracy and Confusion Matrix">
+<img src="images/fig3_Accuracy_Confusion_matrix.png" alt="Accuracy and Confusion Matrix">
 
 <h3> Low light performance </h3>
 <img src="images/fig4_low_ight.png" alt="Low light performance">
